@@ -1,16 +1,17 @@
 {
+  "homepage": "https://salomontilla.github.io/mouse-tracker/",
   "name": "mouse-tracker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://salomontilla.github.io/mouse-tracker/",
+  
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
